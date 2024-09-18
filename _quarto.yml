@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Talayee Family"
+  navbar:
+    left:
+      - href: index.qmd
+      - Circle_of_Sponsors.qmd
+      - Reunite_Talayee_Family.qmd
+      - Updates.qmd
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
